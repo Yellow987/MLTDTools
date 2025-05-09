@@ -1,3 +1,5 @@
+& "C:\Tools\NuGet\nuget.exe" restore "C:\Users\daryl\Desktop\MLTD\MLTDTools\src\MLTDTools.sln"
+
 # MLTDTools (MiriTore)
 
 Tools for [THE iDOLM@STER Million Live! Theater Days](https://millionlive.idolmaster.jp/theaterdays/) (MiriShita/ミリシタ). A sister project of [OpenCGSS/DereTore](https://github.com/OpenCGSS/DereTore).
@@ -23,7 +25,7 @@ Requires .NET Framework 4.7.2.
 This repository:
 
 - contains some common tools to explore possibilities.
-- does not serve as a card/event/CG/commu database. If you want that please visit [ミリシタDB](http://imas.gamedbs.jp/mlth/).
+- does not serve as a card/event/CG/commu database. If you want that please visit [ミリシタ DB](http://imas.gamedbs.jp/mlth/).
 - DOES NOT PROVIDE TOOLS FOR YOU TO CHEAT. **Cheating is not fun at all. It must be punished.**
 
 For the Unity project for resource generation, please visit [PlatinumTheater](https://github.com/OpenMLTD/PlatinumTheater).
@@ -60,7 +62,7 @@ Export models, dance animations, morphs and camera motions to MMD equivalents. I
 [Manual](https://github.com/OpenMLTD/MLTDTools/wiki/MillionDance-Manual)
 
 Output animation data can be played in either [MikuMikuDance](http://www.geocities.jp/higuchuu4/index_e.htm) (MMD) or [MikuMikuMoving](https://sites.google.com/site/mikumikumovingeng/) (MMM). But, the number of frames is huge due to technical limitations.
-MMM is much faster reading motions with large amount of frames. *Don't feed MMD with motions converted in 60 fps. It simply hangs for a long time and then crashes.*
+MMM is much faster reading motions with large amount of frames. _Don't feed MMD with motions converted in 60 fps. It simply hangs for a long time and then crashes._
 
 **MLTD Dance Viewer**
 
@@ -69,7 +71,7 @@ data extracted from MLTD.
 
 Theoretically it can be applied to other Unity games, with a little modification...
 
-*Requires OpenGL 4.0+*
+_Requires OpenGL 4.0+_
 
 **TDFacial**
 
